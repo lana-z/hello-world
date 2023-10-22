@@ -13,12 +13,12 @@ I'm also taking a course to up my technical skills. This website is to document 
 
 ### Code 102 Reading Notes
 
-- file 1
-- file 2
-- file 3
+- [file 1](102/file1.md)
+- [file 2](102/file2.md)
+- [file 3](102/file3.md)
 
 ### Code 201 Reading Notes
 
-- file 1
-- file 2
-- file 3
+- [file 1](201/file1.md)
+- [file 2]()
+- [file 3]()
