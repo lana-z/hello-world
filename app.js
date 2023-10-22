@@ -12,7 +12,7 @@ document.write("Ah, thanks for sharing that you're feeling stress at level " + u
 console.log(It is a beautiful day. )
 
 if (userStresslevel <= 5){
-    document.write(" Glad you're feeling below average stress today!");
+    document.write(" Yay, you're feeling below average stress today!");
 }  
     else {
     document.write(" Rats, that's a lot of stress.")
