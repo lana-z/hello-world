@@ -1,0 +1,60 @@
+/* external stylesheet */
+
+header {
+    color: white;
+    background-color: black;
+    padding: 3%;
+}
+body {
+    background-color: #78B4CB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-img {
+    
+    display: block;
+    margin: 0 auto;
+    width: 50%
+    
+}
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    text-align: right;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+a {
+    color: orangered
+}
+
+main ul {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#mountains-img {
+    width: 50%
+}
+
+#women-img {
+    width: 50%
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
