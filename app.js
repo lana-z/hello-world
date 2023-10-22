@@ -9,6 +9,8 @@ const userStresslevel = prompt("Would you mind sharing: On a 1-10 scale, how str
 
 document.write("Ah, thanks for sharing that you're feeling stress at level " + userStresslevel + ".")
 
+console.log(It is a beautiful day. )
+
 if (userStresslevel <= 5){
     document.write(" Glad you're feeling below average stress today!");
 }  
