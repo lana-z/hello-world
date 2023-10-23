@@ -1,7 +1,7 @@
 'use strict';
 
 
-alert("Hello! This website is about managing stress. Let's get started.")
+alert("Hello! This website is about managing stress. Let's get started.");
 
 const userName = prompt("First, do you mind me asking your name?")
 
@@ -17,6 +17,27 @@ if (userStresslevel <= 5){
     document.write(" Rats, that's a lot of stress.")
 }
 
+
+//next lab conditional function
+
+function isBtwn1and10(userStresslevel){
+    let message = '';
+
+    if (userStresslevel > 10){
+            message = "That's higher than 10";
+     } else if (userStresslevel <= 0){
+            message = "That's not between 1 and 10";   
+    }
+    return message;
+}
+
+const stressLevel = isBtwn1and10(userStresslevel)
+
+if (stressLevel) {
+    alert(stressLevel)
+}
+
+
 const userLikelyhood = prompt("How likely are you to consider runnning as a stress reliever, " + userName + "?")
 
 if (userLikelyhood >= 5){
@@ -26,16 +47,3 @@ if (userLikelyhood >= 5){
     document.write(" Hopefully this site will help convince you to try running for stress relief, " + userName + ".")
 }
 
-function addTwoNumbers(num1, num2) {
-    let sum = num1 + num2;
-    console.log(sum);
-    return sum;
-}
-
-addTwoNumbers(;)
-
-
-//these two console.logs aren't working 
-//- why?
-console.log("Hi there, ");
-console.log(userName);
